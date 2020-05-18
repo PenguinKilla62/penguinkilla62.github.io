@@ -1,8 +1,32 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<body>
-  <h1>Hello Website</h1>
-  <p>This is hosted with Github Pages.</p>
+  <!-- This website follows an example posted from w3schools -->
+  <!-- https://www.w3schools.com/html/html_responsive.asp -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="text/css" rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    @media only screen and (max-width: 620px) {
+      /*mobile phones*/
+      .menu,
+      .main,
+      .right {
+        width: 100%;
+      }
+    }
+  </style>
+  <body>
+    <h1>Hello Website</h1>
+    <p>This is hosted with Github Pages.</p>
+    <div class="mainHeader">Resume</div>
+    <div class="main">This is example text that demonstrates what it looks like to explain</div>
+    <div class="right">Another example text, to hightlight a key detail in the previous block</div>
+    <div class="main">This is example text that demonstrates what it looks like to explain</div>
+    <div class="right">Another example text, to hightlight a key detail in the previous block</div>
+    <div class="main">This is example text that demonstrates what it looks like to explain</div>
+    <div class="right">Another example text, to hightlight a key detail in the previous block</div>
+    <div class="mainFooter">Website made by Sam Dillin, hosted with Github Pages</div>
   </body>
-  </html>
+</html>
