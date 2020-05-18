@@ -2,38 +2,165 @@
 <html>
   <!-- This website follows an example posted from w3schools -->
   <!-- https://www.w3schools.com/html/html_responsive.asp -->
+
+  <!--Other Resources used to make this website-->
+  <!--https://stackoverflow.com/questions/24739126/scroll-to-a-specific-element-using-html-->
+  <!--https://stackoverflow.com/questions/3593594/how-to-keep-the-header-static-always-on-top-while-scrolling-->
+  <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav-->
+  <!--https://www.youtube.com/watch?v=8QKOaTYvYUA-->
+  <!---->
+  <!----><head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link type="text/css" rel="stylesheet" href="style.css" />
   <style>
     * {
       box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
     @media only screen and (max-width: 620px) {
       /*mobile phones*/
       .menu,
       .main,
+      header,
       .right {
         width: 100%;
+        margin-left: 0;
       }
     }
   </style>
+  <header>
+    <h1 class="mainHeader">Resume</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav class="menu">
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#middle">About</a></li>
+        <li><a href="#bottom">Contact</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span><img width="35" height="35" src="assets/menu.png"/></span>
+    </label>
+  </input>
+  </header>
+  </head>
   <body>
-    <div class="mainHeader">Resume</div>
-    <div style="overflow: auto;">
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+    <div class="content">
+      <div style="margin-top: 100px;">
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.
+      </div>
+      <div class="right">
+        Another example text, to hightlight a key detail in the previous block.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div id="top" class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div id="middle" class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
+      <div class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
 
-      <div class="main">This is example text that demonstrates what it looks like to explain</div>
+      <div id="bottom" class="main">
+        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
+        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
+        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
+        work.The rest of this is a lot of test to further see how navigation will work.
+      </div>
       <div class="right">Another example text, to hightlight a key detail in the previous block</div>
       <div class="main">This is example text that demonstrates what it looks like to explain</div>
       <div class="right">Another example text, to hightlight a key detail in the previous block</div>
-      <div class="main">This is example text that demonstrates what it looks like to explain</div>
-      <div class="right">Another example text, to hightlight a key detail in the previous block</div>
+    </div>
     </div>
     <div class="mainFooter">
       Website made by Sam Dillin, hosted with Github Pages
