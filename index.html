@@ -11,7 +11,8 @@
   <!---->
   <!----><head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link type="text/css" rel="stylesheet" href="style.css" />
+  <link type="text/css" rel="stylesheet" href="styles/style.css" />
+  <link type="text/css" rel="stylesheet" href="styles/header.css" />
   <style>
     * {
       box-sizing: border-box;
@@ -20,12 +21,27 @@
     }
     @media only screen and (max-width: 620px) {
       /*mobile phones*/
-      .menu,
+      
       .main,
-      header,
+      .left,
+      .leftImage,
       .right {
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .menu{
         width: 100%;
         margin-left: 0;
+        padding-top: 2%;
+      }
+      .emptyleft,
+      .emptyright{
+        width: 0%;
+        height:0%;
+        margin-left:0;
+        margin: 0;
+        padding: 0;
       }
     }
   </style>
@@ -37,6 +53,8 @@
         <li><a href="#top">Home</a></li>
         <li><a href="#middle">About</a></li>
         <li><a href="#bottom">Contact</a></li>
+        <li><a href="#">Test</a></li>
+        <li><a href="#">Test</a></li>
       </ul>
     </nav>
     <label for="nav-toggle" class="nav-toggle-label">
@@ -47,7 +65,10 @@
   </head>
   <body>
     <div class="content">
-      <div style="margin-top: 100px; margin-left: 10px; margin-right:10px; margin-bottom: 10px;">
+      <div style="width:100%; height:100%; margin-top: 100px; margin-left: 10px; margin-right:10px; margin-bottom: 10px; overflow: auto; place-items: center;">
+     
+          <span><img class="leftImage" width="500" height="250" src="assets/testImage.png"/></span>
+        
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -58,6 +79,10 @@
       <div class="right">
         Another example text, to hightlight a key detail in the previous block.
       </div>
+      <div class="emptyleft"></div>
+      <div class="fullemptysmall"></div>
+      
+      <div class="left">Another example text, to hightlight a key detail in the previous block.</div>
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -65,6 +90,10 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="emptyright"></div>
+      <div class="fullemptysmall"></div>
+    
+      <div class="emptyleft"></div>
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -72,6 +101,10 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="emptyright"></div>
+      <div class="fullemptysmall"></div>
+   
+      <div class="emptyleft">*</div>
       <div id="top" class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -79,6 +112,11 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="emptyright">*</div>
+      <div class="fullemptysmall"></div>
+    
+        <img class="leftImage" src="assets/testImage.png"/>
+      
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -86,6 +124,11 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="right">
+        Another example text, to hightlight a key detail in the previous block.
+      </div>
+      <div class="fullemptysmall"></div>
+      <div class="emptyleft">*</div>
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -93,6 +136,9 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="emptyright">*</div>
+      <div class="fullemptysmall"></div>
+      <div class="emptyleft">*</div>
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -100,6 +146,9 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="emptyright">*</div>
+      <div class="fullemptysmall"></div>
+      <div class="emptyleft">*</div>
       <div id="middle" class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -107,6 +156,9 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="emptyright">*</div>
+      <div class="fullemptysmall"></div>
+      <div class="emptyleft">*</div>
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -114,6 +166,9 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="emptyright">*</div>
+      <div class="fullemptysmall"></div>
+      <div class="emptyleft">*</div>
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -121,6 +176,10 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="emptyright">*</div>
+      <div class="fullemptysmall"></div>
+        <img class="leftImage" src="assets/testImage.png"/>
+    
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -128,6 +187,9 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="emptyright">*</div>
+      <div class="fullemptysmall"></div>
+      <div class="emptyleft">*</div>
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -135,6 +197,9 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+      <div class="emptyright">*</div>
+      <div class="fullemptysmall"></div>
+      <div class="emptyleft">*</div>
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -142,6 +207,12 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
+    
+      <div class="right">
+        Another example text, to hightlight a key detail in the previous block.
+      </div>
+      <div class="fullemptysmall"></div>
+      <div class="emptyleft">*</div>
       <div class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -149,7 +220,11 @@
         to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
-
+      <div class="right">
+        Another example text, to hightlight a key detail in the previous block.
+      </div>
+      <div class="fullemptysmall"></div>
+      <div class="emptyleft">*</div>
       <div id="bottom" class="main">
         This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
         further see how navigation will work.The rest of this is a lot of test to further see how navigation will
@@ -158,8 +233,11 @@
         work.The rest of this is a lot of test to further see how navigation will work.
       </div>
       <div class="right">Another example text, to hightlight a key detail in the previous block</div>
+      <div class="fullemptysmall"></div>
+      <div class="emptyleft">*</div>
       <div class="main">This is example text that demonstrates what it looks like to explain</div>
       <div class="right">Another example text, to hightlight a key detail in the previous block</div>
+      <div class="fullemptysmall"></div>
     </div>
     </div>
     <div class="mainFooter">

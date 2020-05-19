@@ -1,0 +1,110 @@
+.content {
+  width: 100%;
+  height: 100%;
+  /*background-color: rgba(33, 33, 33, 0.85);*/
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-image: url(../assets/background-hires.png);
+  overflow: hidden;
+  /*place-items: center;*/
+}
+
+.main {
+  float: left;
+  width: 60%;
+  margin-top: 10px;
+  padding: 0 20px;
+  font-size: larger;
+  color: #e5e5e5;
+  background-color: rgba(33, 33, 33, 0.85);
+}
+.divContainer {
+  width: 100%;
+  margin: 10px;
+  padding: 0 20px;
+}
+.left {
+  background-color: #e5e5e5;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  width: 20%;
+  text-align: center;
+  font-size: large;
+}
+.leftImage {
+  float: left;
+  margin: 10px;
+  width: 20%;
+  text-align: center;
+  font-size: large;
+}
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 17%;
+  margin: 10px;
+  padding: 20px;
+  font-size: large;
+  text-align: center;
+}
+.emptyleft {
+  float: left;
+  /*padding-left: 20%;
+  padding-right: 0%;*/
+  width: 20%;
+  margin: 10px;
+  padding: 20px;
+
+  text-align: center;
+  font-size: large;
+}
+.emptyright {
+  float: left;
+  /*padding-left: 0%;
+  padding-right: 20%;*/
+  width: 17%;
+  margin: 10px;
+  padding: 20px;
+
+  font-size: large;
+  text-align: center;
+}
+.fullempty {
+  float: left;
+  padding-top: 2.5%;
+  padding-left: 50%;
+  padding-right: 50%;
+
+  font-size: large;
+  text-align: center;
+}
+.fullemptysmall {
+  float: left;
+  padding-top: 0.5%;
+  padding-left: 50%;
+  padding-right: 50%;
+
+  font-size: large;
+  text-align: center;
+}
+.mainHeader {
+  padding: 10px;
+  text-align: center;
+  font-size: xx-large;
+}
+.mainFooter {
+  background-color: #e5e5e5;
+  text-align: center;
+  padding: 10px;
+  margin-top: 7px;
+  font-size: medium;
+  overflow-y: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.body {
+  font-family: "Times New Roman", Times, serif;
+  color: #aaaaaa;
+}
