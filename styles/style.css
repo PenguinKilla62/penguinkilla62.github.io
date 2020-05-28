@@ -150,13 +150,13 @@
 .titleLabel {
   font-size: 75px;
   border-bottom: 9.3px solid;
-  border-color: #aaaaaa;
+  border-color: #454545;
 }
 .tableLabel {
   font-size: 24px;
   margin-bottom: auto;
   border-bottom: 3px solid;
-  border-color: #aaaaaa;
+  border-color: #5d5d5d;
 }
 ul li {
   margin-left: 1em;
@@ -182,7 +182,7 @@ html {
 }
 body {
   font-family: Verdana, "Geneva", "Tahoma", sans-serif;
-  color: #aaaaaa;
+  color: #fcfcfc;
 }
 hr.rounded {
   border-radius: 5px;
