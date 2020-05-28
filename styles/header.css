@@ -1,6 +1,6 @@
 :root {
-  --background: rgba(46, 198, 104, 0.85);
-  --menuitem: rgba(26, 138, 84, 0.9);
+  --background: rgba(209, 134, 25, 0.9);
+  --menuitem: rgba(189, 114, 5, 0.9);
 }
 .menu {
   float: left;

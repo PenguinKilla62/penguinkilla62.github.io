@@ -4,7 +4,8 @@
   /*background-color: rgba(33, 33, 33, 0.85);*/
   background-blend-mode: multiply;
   background-size: cover;
-  background-image: url(../assets/background-hires.png);
+  background-image: url(../assets/anotherbluebackground.png);
+
   overflow: hidden;
   /*place-items: center;*/
 }
