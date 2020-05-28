@@ -136,6 +136,7 @@
   padding: 10px;
   margin-left: 20px;
   text-align: center;
+  color: black;
   font-size: xx-large;
 }
 .mainFooter {
@@ -178,8 +179,8 @@ a:visited {
 html {
   scroll-behavior: smooth;
 }
-.body {
-  font-family: "Times New Roman", Times, serif;
+body {
+  font-family: Verdana, "Geneva", "Tahoma", sans-serif;
   color: #aaaaaa;
 }
 hr.rounded {
