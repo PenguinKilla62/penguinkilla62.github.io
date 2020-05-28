@@ -9,22 +9,25 @@
   <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav-->
   <!--https://www.youtube.com/watch?v=8QKOaTYvYUA-->
   <!---->
-  <!----><head>
+  <!---->
+  <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link type="text/css" rel="stylesheet" href="styles/style.css" />
   <link type="text/css" rel="stylesheet" href="styles/header.css" />
+  
   <style>
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-    @media only screen and (max-width: 620px) {
+    @media only screen and (max-width: 980px) {
       /*mobile phones*/
       
       .main,
       .left,
       .leftImage,
+      .rightImage,
       .right {
         width: 90%;
         margin-left: 10px;
@@ -35,6 +38,10 @@
         margin-left: 0;
         padding-top: 2%;
       }
+      .titleLabel{
+        width: 90%;
+        font-size: 37.5px;
+      }
       .emptyleft,
       .emptyright{
         width: 0%;
@@ -43,18 +50,25 @@
         margin: 0;
         padding: 0;
       }
+      .mainContent{
+        margin-left: 30px;
+        margin-right: 20px;
+      }
+      hr.rounded{
+        margin-left: 5%;
+  width: 85%;
+      }
     }
   </style>
   <header>
-    <h1 class="mainHeader">Resume</h1>
+    <h1 class="mainHeader">SD: Resume</h1>
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <nav class="menu">
       <ul>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#middle">About</a></li>
-        <li><a href="#bottom">Contact</a></li>
-        <li><a href="#">Test</a></li>
-        <li><a href="#">Test</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#capstone">Capstone</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <label for="nav-toggle" class="nav-toggle-label">
@@ -62,182 +76,468 @@
     </label>
   </input>
   </header>
+  
   </head>
   <body>
+ 
     <div class="content">
-      <div style="width:100%; height:100%; margin-top: 100px; margin-left: 10px; margin-right:10px; margin-bottom: 10px; overflow: auto; place-items: center;">
+      <div class="mainContent">
      
-          <span><img class="leftImage" width="500" height="250" src="assets/testImage.png"/></span>
+        <div class="fullemptylarge" id="about"></div>
+        <div class="emptyleft"></div>
+        <div class="mainTitle"><label class="titleLabel">About Me</label></div>
+        <div class="emptyright"></div>
+        <div class="fullemptysmall"></div>
+        <div class="emptyleft"></div>
+        <div class="main">
+          Hey, I’m Sam Dillin. I’m a Software Developer from Harding University. I have a bachelor’s in Computer Science and
+          finished with a 2.7 GPA. My education covers an assortment of back-end and front-end development. Most of what I
+          learned was theoretical practise with real world examples.
+        </div>
+        <div class="emptyright"></div>
+        <div class="fullemptysmall"></div>
         
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.
-      </div>
-      <div class="right">
-        Another example text, to hightlight a key detail in the previous block.
-      </div>
+        <div class="emptyleft"></div>
+        <div class="main">
+          During college I was dedicated to make my education successful. It was enjoyable to see the fruits of my efforts as I
+          progressed. Every new class added another tool in my toolbelt. My focus was to learn skills that I would be able to
+          use myself.
+        </div>
+        <div class="emptyright"></div>
+        <div class="fullemptysmall"></div>
+        <div class="emptyleft"></div>
+        <div class="main">
+          For my junior year in college, I picked up a part time job working as a cook at my local pizza place. It was difficult
+          maintaining a 15hr part time job while being a full time student with 15-16hrs. To me, I think these classes were
+          designed to weed people out. However I was able to succeed by maintaining a schedule and sticking to it. The key for
+          me was working ahead of time instead of close to the deadline.
+        </div>
+        <div class="emptyright"></div>
+        <div class="fullemptysmall"></div>
+        <div class="emptyleft"></div>
+        <div class="main">
+          I still have much to learn as I gain more experience. With my current knowledge, I feel like I have a good base to
+          start from. My work ethic and experience with others have taught me valuable lessons as well. For any project, I’ll be
+          able to get the job done.
+        </div>
+        <div class="emptyright"></div>
+        
+        
+
+<div class="fullemptylarge" id="capstone"></div>
+
+<div class="emptyleft"></div>
+<div class="mainTitle" ><label class="titleLabel">Capstone</label></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+<div><img class="leftImage" alt="Mixing Match Logo" src="assets/MixingMatch/MIXMATCHLOGO-02.png" /></div>
+<div class="main">
+  &#9;This was a competitive project to display working on a real world application with a team. For 2020, there were 6
+  teams with 5 people on each team. We had 13 weeks to complete the game. At the Halfway, we had a User Interface
+  Presentation to showcase an early prototype and to receive feedback. There were also smaller deadlines that were
+  assigned to show individual progress for everyone. My team used the Game Engine, Unity, to convert the board game,
+  Quarto, into a Computer Game. My team, Kids In A Trenchcoat, finished 4th out of 6 teams. The difference between 3rd
+  and 4th was 1.5 points. We won 1st place in the AI competition for Best AI. Our hardest AI never lost against other AI
+  or human competitors.
+</div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+<div><img class="leftImage" alt="Mixing Match Game Icon" src="assets/MixingMatch/GameIcon.png" /></div>
+<div class="main">
+  &#9;Our theme was centered around a potion shop in a fantasy setting. The master of this potion shop invites new
+  challengers to compete against each other to become the master’s apprentice. The fire outside signals challengers
+  where to locate the potion shop. Once inside you must strategize in order to be victorious. Lose and you’ll go home
+  empty handed.
+</div>
+<div class="emptyright"></div>
+<div class="fullemptylarge" style="padding-top: 5%;"></div>
+<div class="emptyleft"></div>
+<div class="mainTitle"><label class="titleLabel">Finished Screenshots</label></div>
+<div class="emptyright"></div>
+
+<div class="emptyleft"></div>
+<div class="main"><img class="mainImage" src="assets/MixingMatch/openingScreen.JPG" /></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main"><img class="mainImage" src="assets/MixingMatch/characterSelect.JPG" /></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main"><img class="mainImage" src="assets/MixingMatch/networkgame.JPG" /></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main"><img class="mainImage" src="assets/MixingMatch/gamesceneplay.JPG" /></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main"><img class="mainImage" src="assets/MixingMatch/settingsMenu.JPG" /></div>
+<div class="emptyright"></div>
+<div class="fullemptylarge" style="padding-top: 5%;"></div>
+
+<div class="emptyleft"></div>
+<div class="mainTitle"><label class="titleLabel">Early Concepts and Art</label></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main"><img class="mainImage" src="assets/MixingMatch/shotBack.JPG" /></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div><img class="leftImage" src="assets/MixingMatch/shotClose.JPG" /></div>
+<div class="main"><img class="mainImage" src="assets/MixingMatch/shotWide.JPG" /></div>
+<div><img class="rightImage" src="assets/MixingMatch/MIXMATCHSplatoonLOGO-02.png" /></div>
+<div class="fullemptysmall"></div>
+
+<div><img class="leftImage" src="assets/MixingMatch/splatoonfontlogo.png" /></div>
+<div class="main"><img class="mainImage" src="assets/MixingMatch/GameScene.png" /></div>
+<div><img class="rightImage" src="assets/MixingMatch/MIXMATCHLOGOVIAL-HotPink.png" /></div>
+<div class="fullemptysmall"></div>
+
+<div><img class="leftImage" src="assets/MixingMatch/KITA_Logo-01.png" /></div>
+<div><img class="leftImage" src="assets/MixingMatch/MixingMatchPatternLogo.png" /></div>
+<div><img class="leftImage" src="assets/MixingMatch/KITA_Logo-NO-TEXT.png" /></div>
+<div><img class="rightImage" src="assets/MixingMatch/logo.png" /></div>
+<div class="fullemptysmall"></div>
+
+<div><img class="leftImage" src="assets/MixingMatch/boardTexture.png" /></div>
+<div class="main"><img class="mainImage" src="assets/MixingMatch/greenlights.gif" /></div>
+<div><img class="rightImage" src="assets/MixingMatch/blue.gif" /></div>
+
+
+
+<div class="fullemptylarge" id="education"></div>
+<div class="emptyleft"></div>
+<div class="mainTitle" ><label class="titleLabel">Education</label></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
       <div class="emptyleft"></div>
-      <div class="fullemptysmall"></div>
-      
-      <div class="left">Another example text, to hightlight a key detail in the previous block.</div>
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="emptyright"></div>
-      <div class="fullemptysmall"></div>
-    
-      <div class="emptyleft"></div>
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="emptyright"></div>
-      <div class="fullemptysmall"></div>
-   
-      <div class="emptyleft">*</div>
-      <div id="top" class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="emptyright">*</div>
-      <div class="fullemptysmall"></div>
-    
-        <img class="leftImage" src="assets/testImage.png"/>
-      
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="right">
-        Another example text, to hightlight a key detail in the previous block.
-      </div>
-      <div class="fullemptysmall"></div>
-      <div class="emptyleft">*</div>
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="emptyright">*</div>
-      <div class="fullemptysmall"></div>
-      <div class="emptyleft">*</div>
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="emptyright">*</div>
-      <div class="fullemptysmall"></div>
-      <div class="emptyleft">*</div>
-      <div id="middle" class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="emptyright">*</div>
-      <div class="fullemptysmall"></div>
-      <div class="emptyleft">*</div>
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="emptyright">*</div>
-      <div class="fullemptysmall"></div>
-      <div class="emptyleft">*</div>
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="emptyright">*</div>
-      <div class="fullemptysmall"></div>
-        <img class="leftImage" src="assets/testImage.png"/>
-    
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="emptyright">*</div>
-      <div class="fullemptysmall"></div>
-      <div class="emptyleft">*</div>
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="emptyright">*</div>
-      <div class="fullemptysmall"></div>
-      <div class="emptyleft">*</div>
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-    
-      <div class="right">
-        Another example text, to hightlight a key detail in the previous block.
-      </div>
-      <div class="fullemptysmall"></div>
-      <div class="emptyleft">*</div>
-      <div class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="right">
-        Another example text, to hightlight a key detail in the previous block.
-      </div>
-      <div class="fullemptysmall"></div>
-      <div class="emptyleft">*</div>
-      <div id="bottom" class="main">
-        This is example text that demonstrates what it looks like to explain. The rest of this is a lot of test to
-        further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.The rest of this is a lot of test
-        to further see how navigation will work.The rest of this is a lot of test to further see how navigation will
-        work.The rest of this is a lot of test to further see how navigation will work.
-      </div>
-      <div class="right">Another example text, to hightlight a key detail in the previous block</div>
-      <div class="fullemptysmall"></div>
-      <div class="emptyleft">*</div>
-      <div class="main">This is example text that demonstrates what it looks like to explain</div>
-      <div class="right">Another example text, to hightlight a key detail in the previous block</div>
-      <div class="fullemptysmall"></div>
+     
+      <div class="main" style="border: 10px solid transparent; padding:10px; border-color: cadetblue;">
+        <table>
+          <tr>
+            <td><label class="tableLabel">Fall 2017</label></td>
+            <td><label class="tableLabel">Spring 2018</label></td>
+          </tr>
+          <tr>
+            <td>
+        
+<ul title="Fall 2017">
+  <li>Software Development 170</li>
+</ul>
+</td>
+<td>
+  <ul title="Spring 2018">
+    <li>Web Development</li>
+    <li>Data Structures</li>
+    <li>Computer Architecture & Assembly Programming</li>
+  </ul></td>
+</tr>
+</table>
+</div>
+     
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+
+
+<div class="emptyleft"></div>
+<div class="main"style="border: 10px solid transparent; padding:10px; border-color: cadetblue;">
+<table>
+  <tr>
+    <td><label class="tableLabel">Summer 2018</label></td>
+    <td><label class="tableLabel">Fall 2018</label></td>
+  </tr>
+  <tr>
+    <td>
+
+  
+  <ul title="Summer 2018">
+    <li>Operating Systems Concepts</li>
+  </ul>
+</td>
+<td>
+  
+  <ul title="Fall 2018">
+    <li>Software Engineering</li>
+    <li>Object Oriented Programming</li>
+    <li>Applied Algorithms</li>
+  </ul>
+</td>
+</tr>
+  </table>
+</div>
+
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main"style="border: 10px solid transparent; padding:10px; border-color: cadetblue;">
+  <table>
+    <tr>
+      <td><label class="tableLabel">Spring 2019</label></td>
+      <td><label class="tableLabel">Fall 2019</label></td>
+    </tr>
+    <tr>
+      <td>
+  
+  <ul title="Spring 2019">
+    <li>Data Communications / Network</li>
+    <li>IOS</li>
+    <li>Database Concepts & Application</li>
+  </ul>
+</td>
+<td>
+  <ul title="Fall 2019">
+    <li>Computing Seminar Topic: Scala Functional Programming</li>
+    <li>Web Sciences (Data Science)</li>
+    <li>GUI Programming</li>
+    <li>File Structures</li>
+  </ul></td>
+</tr></table></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+<div class="emptyleft"></div>
+<div class="main"style="border: 10px solid transparent; padding:10px; border-color: cadetblue;">
+  <table>
+  <tr>
+    <td><label class="tableLabel">Spring 2020</label></td></tr>
+    <tr>
+   <td><ul title="Spring 2020">
+    <li>Web Development II</li>
+    <li>CS Software Development Project (Capstone Project)</li>
+    <li>Android Development</li>
+    <li>Security</li>
+  </ul>
+</td>
+  </tr>
+  </table>
+  
+  </div>
+<div class="emptyright"></div>
+<div class="fullemptylarge" style="padding-top: 5%;"></div>
+
+<div class="emptyleft"></div>
+<div class="mainTitle"><label class="titleLabel">Programming Languages</label></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+
+<div class="main" style="border: 10px solid transparent; padding: 10px; border-color: #df641a;">
+  <table>
+    <tr>
+      <td><label class="tableLabel">Mobile</label></td>
+      <td><label class="tableLabel">Web/Web Technologies</label></td>
+    </tr>
+    <tr>
+      <td>
+        <ul title="Mobile">
+          <li>IOS - Swift</li>
+          <li>Android - Java</li>
+        </ul>
+      </td>
+      <td>
+        <ul title="Web">
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+          <li>TypeScript</li>
+          <li>JSON</li>
+          <li>XML</li>
+          <li>MERN Stack (MongoDB, Express JS, React JS, Node JS)</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+
+<div class="main" style="border: 10px solid transparent; padding: 10px; border-color: #df641a;">
+  <table>
+    <tr>
+      <td><label class="tableLabel">Object-Oriented</label></td>
+      <td><label class="tableLabel">Functional/OOP</label></td>
+      <td><label class="tableLabel">Assembly/Database</label></td>
+    </tr>
+    <tr>
+      <td>
+        <ul title="Object-Oriented">
+          <li>C++</li>
+          <li>C#</li>
+          <li>Java</li>
+          <li>Python</li>
+        </ul>
+      </td>
+      <td>
+        <ul title="Functional/OOP">
+          <li>Scala</li>
+          <li>Swift</li>
+        </ul>
+      </td>
+      <td>
+        <ul title="Assembly/Database">
+          <li>mySQL</li>
+          <li>SQL</li>
+          <li>PERL</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="emptyright"></div>
+
+
+<div class="fullemptylarge" id="contact"></div>
+
+
+<div class="emptyleft"></div>
+<div class="mainTitle" ><label class="titleLabel">Contact Information</label></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main">
+  <table>
+    <tbody>
+      <tr>
+        <td><label class="tableLabel">Sam Dillin</label></td>
+      </tr>
+      <tr>
+        <td>Software Developer</td>
+      </tr>
+      <tr>
+        <td>(501) 388 - 4226</td>
+      </tr>
+      <tr>
+        <td>srdillin@gmail.com (personal email)&nbsp;<a href="mailto: srdillin@gmail.com?subject = **Resume Inquiry**">Send Email</a></td>
+      </tr>
+      <tr>
+        <td>sdillin@harding.edu (school email)&nbsp;<a href="mailto: sdillin@harding.edu?subject = **Resume Inquiry**">Send Email</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="emptyright"></div>
+
+<div class="fullemptylarge" style="padding-top: 5%;"></div>
+<div class="emptyleft"></div>
+<div class="mainTitle"><label class="titleLabel">Previous Professor's Contacts</label></div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main">
+  <table>
+    <tbody>
+      <tr>
+        <td><label class="tableLabel">Coach Ragsdale, Ph.D.</label></td>
+      </tr>
+      <tr>
+        <td>Assoc Professor of Computer Science</td>
+      </tr>
+      <tr>
+        <td>(501) 279 - 4482</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main">
+  <table>
+    <tbody>
+      <tr>
+        <td><label class="tableLabel">Gabriel Foust, Ph.D</label></td>
+      </tr>
+      <tr>
+        <td>Assistant Professor of Computer Science</td>
+      </tr>
+      <tr>
+        <td>(501) 279 - 4434</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main">
+  <table>
+    <tbody>
+      <tr>
+        <td><label class="tableLabel">Frank McCown, Ph.D</label></td>
+      </tr>
+      <tr>
+        <td>Assoc Professor of Computer Science</td>
+      </tr>
+      <tr>
+        <td>(501) 279 - 4826</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main">
+  <table>
+    <tbody>
+      <tr>
+        <td><label class="tableLabel">Steve Baber, Ph.D</label></td>
+      </tr>
+      <tr>
+        <td>Professor of Mathmatics & Computer Science</td>
+      </tr>
+      <tr>
+        <td>(501) 279 - 4266</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="emptyright"></div>
+<div class="fullemptysmall"></div>
+
+<div class="emptyleft"></div>
+<div class="main">
+  <table>
+    <tbody>
+      <tr>
+        <td><label class="tableLabel">Computer Science Department</label></td>
+      </tr>
+      <tr>
+        <td>(501) 279 - 4361</td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="https://www.harding.edu/academics/colleges-departments/sciences/computer-science/faculty"
+            target="_blank"
+            >Most up to date Harding Contact Information</a
+          >
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="emptyright"></div>
+<div class="fullemptylarge"></div>
     </div>
     </div>
     <div class="mainFooter">
